@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div className="App">
       <h1 className="Header">ReactWars</h1>
-      <div class="container">
+      <div className="container">
         <CharCard characters={data} />
       </div>
     </div>
