@@ -1,8 +1,23 @@
+@font-face {
+  font-family: 'StarJedi';
+  src: url('./assets/Starjedi.ttf');
+}
+
 .App {
   text-align: center;
+  padding: 50px;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: #000000;
+  font-size: 60px;
+  font-family: 'StarJedi';
+  font-weight: 900;
 }
 /* write your parent styles in here for your App.js */
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px;
+}

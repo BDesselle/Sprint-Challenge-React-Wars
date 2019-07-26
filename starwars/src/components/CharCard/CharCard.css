@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'EpisodeI';
+  src: url('./assets/EPISODE1.TTF');
+}
+
+.header {
+  font-family: 'EpisodeI';
+}
